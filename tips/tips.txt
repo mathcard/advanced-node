@@ -1,0 +1,34 @@
+MeNight Owl
+ident-rainbow
+vscode-drawio
+
+
+npm i -D typescript
+
+-- Iniciando typescript
+npx tsc --init
+
+-- Gerando build
+npx tsc
+
+-- Setanto versão do node no package.json
+ "engines": {
+    "node": "16.x"
+  }
+
+-- Apagando build antigo antes de novo build
+npm i rimraf
+
+-- Trabalhando com paths modules
+npm i -D module-alias
+npm i -D @types/module-alias
+npm i -D @types/node
+
+
+modo strict:
+
+-- ESLINT
+--npm i eslint-config-standard-with-typescript
+npm install --save-dev eslint@^7.12.1 eslint-plugin-promise@^5.0.0 eslint-plugin-import@^2.22.1 eslint-plugin-node@^11.1.0 @typescript-eslint/eslint-plugin@^4.0.1 eslint-config-standard-with-typescript@latest
+
+npx eslint .
