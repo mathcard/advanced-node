@@ -1,6 +1,13 @@
 {
   "extends": "standard-with-typescript",
   "parserOptions": {
-    "project": "project/tsconfig.json"
+    "project": "./tsconfig.json",
+    "tsconfigRootDir": "./",
+    "sourceType": "module"
+  },
+  "rules": {
+    "@typescript-eslint/consistent-type-definitions": "off",
+    "@typescript-eslint/no-namespace": "off"
+
   }
 }
